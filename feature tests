@@ -1,0 +1,20 @@
+require './lib/oystercard.rb'
+oc = Oystercard.new
+oc.top_up(66)
+oc.touch_in('Aldgate East','1')
+oc.touch_out('Liverpool St', '3')
+
+
+
+
+
+
+
+
+
+
+oc.touch_in('Paris','3')
+oc.touch_out('London', '4')
+
+
+oc.touch_in('Fulham','3')
